@@ -8,7 +8,16 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    
+    
+    int number;
+    
+    printf("enter any number:> ");
+    scanf("%d" , &number);
+    
+    for(int i=1;i<=10;i++){
+        printf("%d\n", i*number);
+    }
+    
     return 0;
 }
